@@ -9,7 +9,7 @@ This is the official PyTorch implementation of the CVPR 2022 paper: "Look Closer
 
 ## One-shot Chinese Font generation
 <!-- ![image](img/seenstyle.jpg) -->
-<div align=center><img width="800" height="1000" src="img/seenstyle.jpg"/></div>
+<div align=center><img width="600" height="800" src="img/seenstyle.jpg"/></div>
 
 ## Citation
 If our paper helps your research, please cite it in your publication(s):
