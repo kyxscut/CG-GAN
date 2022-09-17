@@ -47,7 +47,7 @@ Modify the **dataRoot** , **ttfRoot** and **corpusRoot** in `scripts/train_chara
 Train your model, run
 
 ```bash
-	 sh scripts/train_character.sh
+ sh scripts/train_character.sh
 ```
 
 ### Handwritten word synthesis task 
