@@ -39,7 +39,7 @@ For handwritten word synthesis task, please down the [IAM](http://www.fki.inf.un
 Modify the **dataRoot** , **ttfRoot** and **corpusRoot** in `scripts/train_character.sh`as your settings.
 
 ```bash
-	--dataroot data/path to dataset \
+  --dataroot data/path to dataset \
   --ttfRoot data/font \
   --corpusRoot data/path to corpus \
 ```
@@ -55,7 +55,7 @@ Train your model, run
 Modify the **dataRoot** , **ttfRoot** and **corpusRoot** in `scripts/train_handwritten.sh`as your settings.
 
 ```bash
-	--dataroot data_iam/train_IAM \
+  --dataroot data_iam/train_IAM \
   --ttfRoot data_iam/fonts_iam \
   --corpusRoot data_iam/seen_char.txt \
 ```
@@ -63,7 +63,7 @@ Modify the **dataRoot** , **ttfRoot** and **corpusRoot** in `scripts/train_handw
 Train your model, run
 
 ```bash
-	 sh scripts/train_handwritten.sh
+ sh scripts/train_handwritten.sh
 ```
 
 ## Testing
@@ -73,7 +73,7 @@ Train your model, run
 test your model, run
 
 ```bash
-	 sh scripts/test_character.sh
+ sh scripts/test_character.sh
 ```
 
 ### Handwritten word synthesis task 
@@ -81,7 +81,7 @@ test your model, run
 test your model, run
 
 ```bash
-	 sh scripts/test_handwritten.sh
+ sh scripts/test_handwritten.sh
 ```
 
 ## Citation
