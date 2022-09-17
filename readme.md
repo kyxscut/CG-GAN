@@ -34,7 +34,7 @@ For handwritten word synthesis task, please down the [IAM](http://www.fki.inf.un
 
 ## Training
 
-### Chinese font generation task 
+### Chinese font generation
 
 Modify the **dataRoot** , **ttfRoot** and **corpusRoot** in `scripts/train_character.sh`as your settings.
 
@@ -50,7 +50,7 @@ Train your model, run
  sh scripts/train_character.sh
 ```
 
-### Handwritten word synthesis task 
+### Handwritten word synthesis 
 
 Modify the **dataRoot** , **ttfRoot** and **corpusRoot** in `scripts/train_handwritten.sh`as your settings.
 
@@ -68,7 +68,7 @@ Train your model, run
 
 ## Testing
 
-### Chinese font generation task 
+### Chinese font generation
 
 test your model, run
 
@@ -76,7 +76,7 @@ test your model, run
  sh scripts/test_character.sh
 ```
 
-### Handwritten word synthesis task 
+### Handwritten word synthesis 
 
 test your model, run
 
