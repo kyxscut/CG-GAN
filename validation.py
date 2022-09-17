@@ -43,8 +43,8 @@ def validateUN(dataset, model, epoch,val_dir,val_num):
             save_images_validation(save_dir,visuals,img_path)
         
         print('done')
-        eval.main(save_dir)
-        fid_score.calculate_fid_given_paths([save_dir],128,0,2048)
+#         eval.main(save_dir)
+        fid_score.calculate_fid_given_paths([save_dir],128,True,2048)
 
         
 
