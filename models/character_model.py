@@ -33,8 +33,8 @@ class CHARACTERModel(BaseModel):
     def __init__(self, opt):
         BaseModel.__init__(self, opt)
         # specify the training losses you want to print out. The training/test scripts will call <BaseModel.get_current_losses>
-        self.loss_names = ['D', 'D_lexicon','D_ID' ,'unetD_real','unetD_middle_real','D_real_lexicon_feat','unetD_fake','unetD_middle_fake','D_fake_lexicon_feat',
-                            'G', 'G_lexicon','G_ID','unetG','unetG_middle','G_lexicon_feat','G_idt','G_cont_idt']
+        self.loss_names = ['D', 'D_lexicon','D_ID','D_radical_ID','unetD_real','unetD_middle_real','D_real_lexicon_feat','unetD_fake','unetD_middle_fake','D_fake_lexicon_feat',
+                            'G', 'G_lexicon','G_ID','G_radical_ID','unetG','unetG_middle','G_lexicon_feat','G_idt','G_cont_idt']
         # self.loss_names = ['D', 'unetD_real','unetD_middle_real','unetD_fake','unetD_middle_fake',
         #                      'G', 'unetG','unetG_middle','G_idt','G_cont_idt','G_L1']
         
